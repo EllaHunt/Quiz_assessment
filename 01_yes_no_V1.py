@@ -1,7 +1,7 @@
 show_instructions = ""
 while show_instructions.lower() != "xxx":
     # ask the user if they have played before
-    show_instructions = input ("have you played this game before? ").lower()
+    show_instructions = input ("have you played this Quiz before? ").lower()
 
     # if they say yes, output 'program continues'
     # if they say no, output 'display instructions'
